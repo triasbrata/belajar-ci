@@ -1,0 +1,8 @@
+node_modules
+.vscode
+src
+upload
+exclude.rsync
+.env
+test.http
+*.log

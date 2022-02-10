@@ -1,0 +1,33 @@
+{
+  "name": "bot-sc-page",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Trias <triasbrata@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa__router": "^8.0.4",
+    "dotenv": "^8.2.0",
+    "koa": "^2.13.1",
+    "koa-bodyparser": "^4.3.0",
+    "nodemon": "^2.0.7",
+    "sharp": "^0.28.1",
+    "tracer": "^1.1.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/koa": "^2.13.1",
+    "@types/node": "14",
+    "@types/sharp": "^0.27.3",
+    "@types/supertest": "^2.0.11",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.2.3"
+  }
+}
