@@ -16,7 +16,6 @@ jobs:
         with:
           name: build-artifact ${{ matrix.node }}
           path: dist
-          retention-days: 1
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
 
