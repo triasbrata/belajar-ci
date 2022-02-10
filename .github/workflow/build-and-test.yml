@@ -1,7 +1,7 @@
 name: Build and test
 on:
   push:
-    branch: [main]
+    branch: [master]
   repository_dispatch:
 strategy:
   matrix:
