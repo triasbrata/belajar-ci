@@ -6,8 +6,8 @@ on:
 jobs:
   build:
     strategy:
-    matrix:
-      node: [12.x, 14.x]
+      matrix:
+        node: [12.x, 14.x]
     runs-on: ubuntu-latest #https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners
     steps:
       - uses: actions/setup-node@v2
